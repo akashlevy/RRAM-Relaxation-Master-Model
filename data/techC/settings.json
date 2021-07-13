@@ -2,15 +2,18 @@
     "gmax": 40e-6,
     "fs": 400,
 
-    "tsIndexOffsets": [0, 2, 4, 0],
+    "ts_index_offsets": [0, 2, 4, 0],
 
-    "tsylim": [0, 55],
+    "ts_ylim": [0, 55],
 
-    "psdnperseg": 65536,
-    "psdxlim": [1e-1, 1e2],
-    "psdylim": [1e-19, 1e-12],
-    "psdFpts": [[2e0, 4e1], [4e-13, 2e-14]],
-    "psdFtextloc": [1e1, 2e-13],
+    "psd_nperseg": 65536,
+    "psd_xlim": [1e-1, 1e2],
+    "psd_ylim": [1e-19, 1e-12],
+    "psd_fpts": [[2e0, 4e1], [4e-13, 2e-14]],
+    "psd_ftextloc": [1e1, 2e-13],
 
-    "gbroadylim": [0, 1.5]
+    "gbroad_ylim": [0, 1.5],
+
+    "gmeandrift_gi_ylim": [-3, 2],
+    "gvar_gi_ylim": [0, 25]
 }
