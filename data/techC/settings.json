@@ -1,10 +1,14 @@
 {
     "gmax": 40e-6,
     "fs": 400,
+
+    "tsIndexOffsets": [0, 2, 4, 0],
+
+    "tsylim": [0, 55],
+
     "psdnperseg": 65536,
-    "psdIndexOffsets": [4, 2, 4, 0],
     "psdxlim": [1e-1, 1e2],
-    "psdylim": [1e-18, 1e-12],
+    "psdylim": [1e-19, 1e-12],
     "psdFpts": [[2e0, 4e1], [4e-13, 2e-14]],
     "psdFtextloc": [1e1, 2e-13]
 }
