@@ -134,3 +134,5 @@ dmypy.json
 **/relaxdata.tsv.gz
 **/relaxdata.tsv
 misc/*.tsv*
+data/bak
+data/techB/tsdata.min.tsv.gz
