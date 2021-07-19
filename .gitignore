@@ -133,3 +133,4 @@ dmypy.json
 **/tsdata.tsv
 **/relaxdata.tsv.gz
 **/relaxdata.tsv
+misc/*.tsv*

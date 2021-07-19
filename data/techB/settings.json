@@ -1,0 +1,23 @@
+{
+    "gmax": 128e-6,
+    "fs": 300000,
+
+    "ts_npts": 60000000,
+
+    "ts_index_offsets": [0, 0, 0, 0],
+
+    "ts_ylim": [0, 150],
+
+    "psd_nperseg": 10000000,
+    "psd_xlim": [1e-1, 1e4],
+    "psd_ylim": [1e-20, 1e-12],
+    "psd_fpts": [[2e1, 2e3], [2e-13, 2e-15]],
+    "psd_ftextloc": [1e2, 1e-13],
+    "psd_f2textloc": [8e-1, 4e-17],
+    "psd_f2pts": [[2e-1, 2e0], [2e-16, 2e-18]],
+
+    "gbroad_ylim": [0, 1.5],
+
+    "gmeandrift_gi_ylim": [-3, 2],
+    "gvar_gi_ylim": [0, 25]
+}

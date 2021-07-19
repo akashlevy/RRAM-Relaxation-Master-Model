@@ -2,6 +2,8 @@
     "gmax": 40e-6,
     "fs": 400,
 
+    "ts_npts": 500000,
+
     "ts_index_offsets": [0, 2, 4, 0],
 
     "ts_ylim": [0, 55],
