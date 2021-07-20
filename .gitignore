@@ -135,6 +135,6 @@ dmypy.json
 **/relaxdata.tsv
 **/bake_*C.tsv.gz
 **/bake_*C.tsv
-misc/*.tsv*
+preprocessing/*.tsv*
 data/bak
 data/techB/tsdata.min.tsv.gz
