@@ -5,7 +5,6 @@
     "ts_npts": 500000,
 
     "ts_index_offsets": [0, 2, 4, 0],
-
     "ts_ylim": [0, 55],
 
     "psd_nperseg": 65536,
@@ -13,6 +12,8 @@
     "psd_ylim": [1e-19, 1e-12],
     "psd_fpts": [[2e0, 4e1], [4e-13, 2e-14]],
     "psd_ftextloc": [1e1, 2e-13],
+
+    "times": [0, 0.01, 0.1, 1, 4, 100000],
 
     "gbroad_ylim": [0, 1.5],
 
