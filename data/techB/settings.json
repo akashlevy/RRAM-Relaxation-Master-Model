@@ -16,10 +16,16 @@
     "psd_f2textloc": [8e-1, 4e-17],
     "psd_f2pts": [[2e-1, 2e0], [2e-16, 2e-18]],
 
-    "times": [0, 0.01, 0.1, 1, 10, 100, 1000, 10000, 1000000],
 
-    "gbroad_ylim": [0, 1.5],
+    "times": [0, 100, 1000, 10000, 100000],
+    "times.bak": [0, 0.01, 0.1, 1, 100, 1000, 10000, 100000],
+    "times.bak2": [0, 0.01, 0.1, 1, 10000],
 
-    "gmeandrift_gi_ylim": [-3, 2],
-    "gvar_gi_ylim": [0, 25]
+    "gbroad_ylim": [0, 0.3],
+
+    "gmeandrift_t_ylim": [-8, 3],
+    "gvar_t_ylim": [0, 200],
+
+    "gmeandrift_gi_ylim": [-6, 5],
+    "gvar_gi_ylim": [0, 210]
 }
