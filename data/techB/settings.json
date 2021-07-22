@@ -27,5 +27,9 @@
     "gvar_t_ylim": [0, 200],
 
     "gmeandrift_gi_ylim": [-6, 5],
-    "gvar_gi_ylim": [0, 210]
+    "gvar_gi_ylim": [0, 210],
+
+    "temps": [100, 140, 180, 220, 260],
+
+    "gbroad_temp_ylim": [0, 0.2]
 }
