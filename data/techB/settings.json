@@ -18,21 +18,21 @@
     "psd_f2pts": [[2e-1, 2e0], [2e-16, 2e-18]],
 
 
-    "times": [0, 100, 1000, 10000, 100000],
-    "times.bak": [0, 0.01, 0.1, 1, 100, 1000, 10000, 100000],
+    "times": [0, 0.01, 0.1, 1, 100, 1000, 10000, 100000],
+    "times.bak": [0, 100, 1000, 10000, 100000],
     "times.bak2": [0, 0.01, 0.1, 1, 10000],
 
-    "gbroad_ylim": [0, 0.3],
+    "gbroad_ylim": [0, 0.55],
 
-    "gmeandrift_t_ylim": [-8, 3],
-    "gvar_t_ylim": [0, 200],
+    "gmeandrift_t_ylim": [-4.1, 3.5],
+    "gvar_t_ylim": [0, 125],
 
-    "gmeandrift_gi_ylim": [-6, 5],
+    "gmeandrift_gi_ylim": [-5, 4],
     "gvar_gi_ylim": [0, 210],
 
     "gmeandrift_temp_ylim": [-5, 18],
 
     "temps": [100, 140, 180, 220, 260],
 
-    "gbroad_temp_ylim": [0, 0.2]
+    "gbroad_temp_ylim": [0, 0.15]
 }
