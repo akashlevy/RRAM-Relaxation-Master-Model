@@ -4,7 +4,9 @@
 
     "ts_npts": 100000,
 
+    "ts_ranges": [0, 8, 16, 31],
     "ts_index_offsets": [0, 0, 0, 0],
+
     "ts_ylim": [0, 350],
 
     "psd_nperseg": 32768,

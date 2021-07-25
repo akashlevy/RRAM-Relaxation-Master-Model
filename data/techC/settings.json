@@ -2,9 +2,11 @@
     "gmax": 40e-6,
     "fs": 400,
 
-    "ts_npts": 500000,
+    "ts_npts": 200000,
 
+    "ts_ranges": [0, 8, 16, 31],
     "ts_index_offsets": [0, 2, 4, 0],
+
     "ts_ylim": [0, 55],
 
     "psd_nperseg": 65536,
@@ -20,7 +22,7 @@
     "gmeandrift_gi_ylim": [-3, 2],
     "gvar_gi_ylim": [0, 25],
 
-    "temps": [100, 140, 180],
+    "temps": [100, 140, 180, 220, 260],
 
     "gbroad_temp_ylim": [0, 0.5]
 }
