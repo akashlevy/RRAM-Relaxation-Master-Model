@@ -21,8 +21,8 @@
     "gmeandrift_t_ylim": [-0.5, 3.5],
     "gvar_t_ylim": [0, 180],
 
-    "gmeandrift_gi_ylim": [-2, 3],
-    "gvar_gi_ylim": [0, 250],
+    "gmeandrift_gi_ylim": [-1.5, 3.5],
+    "gvar_gi_ylim": [0, 225],
 
     "temps": [100, 140, 180, 220, 260],
 
