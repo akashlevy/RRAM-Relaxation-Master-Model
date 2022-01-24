@@ -129,6 +129,7 @@ dmypy.json
 .pyre/
 
 # Large files
+**/cycle_ret*.tsv.gz
 **/tsdata.tsv.gz
 **/tsdata.tsv
 **/relaxdata.tsv.gz
