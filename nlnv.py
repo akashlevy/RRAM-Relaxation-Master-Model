@@ -40,15 +40,20 @@ if __name__ == '__main__':
 
     # Create and fit distribution
     nlnv = NLNV()
-    sparams = nlnv.fit(samps)
+    sparams = nlnv.fit(samps, fscale=1)
     print("NLNV fitted parameters:", sparams)
 
     # Probability plot of NLNV
-    scipy.stats.probplot(samps, sparams=sparams, dist=nlnv, plot=plt, fit=False)
+    results = scipy.stats.probplot(samps, sparams=sparams, dist=NLNV(), plot=plt, fit=True)
+    print(results)
     plt.show()
 
     # Probability plot of normal distribution
-    print("NLNV fitted parameters:", sparams)
     results = scipy.stats.probplot(samps, dist='norm', plot=plt)
+    print(results)
+    plt.show()
+
+    # Probability plot of uniform distribution
+    results = scipy.stats.probplot(samps, dist='uniform', plot=plt)
     print(results)
     plt.show()
