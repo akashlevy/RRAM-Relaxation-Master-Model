@@ -4,10 +4,10 @@
 
     "ts_npts": 60000000,
 
-    "ts_ranges": [0, 8, 16, 31],
-    "ts_index_offsets": [0, 2, 4, 0],
+    "ts_ranges": [0, 8, 16, 24, 31],
+    "ts_index_offsets": [0, 0, 0, 0, 0],
 
-    "ts_ylim": [0, 200],
+    "ts_ylim": [0, 240],
 
     "psd_nperseg": 10000000,
     "psd_xlim": [1e-1, 1e4],
