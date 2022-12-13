@@ -11,11 +11,7 @@ See `analysis.ipynb`. Make sure to join split files like `techB/tsdata.min.tsv.g
 
 ## Raw Data
 
-The three datasets (per technology) consist of (1) continuous time series data for spectral analysis (tsdata), (2) relaxation data for both short-term and long-term (relaxdata), and (3) baking data for temperature dependence (bake). For the full (not minimal) datasets visit:
-
-Tech A and B: https://stanford.box.com/s/dveg1ghkgq3dgt2gjwy3zgtrpcxvpymu
-
-Tech C: https://stanford.app.box.com/s/vgsuvpnkiw12wkqwxndm6minbck4s012
+The three datasets (per technology) consist of (1) continuous time series data for spectral analysis (tsdata), (2) relaxation data for both short-term and long-term (relaxdata), and (3) baking data for temperature dependence (bake). For the full (not minimal) datasets visit: https://drive.google.com/drive/folders/1e-ajcoLPeR38J3mKM-X3BeIJsIriS3a-?usp=share_link
 
 ## Questions?
 
